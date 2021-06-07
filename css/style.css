@@ -41,6 +41,7 @@ body{
 }
 .infoContato{
     padding-top: 10px;
+   
 }
 .infoContato{
     color: #fff;
@@ -61,6 +62,9 @@ body{
     margin: 10px 0;
     cursor: pointer;
 
+}
+.contato h3{
+    text-align: left;
 }
 .contato ul li .icon{
     display: inline-block;
