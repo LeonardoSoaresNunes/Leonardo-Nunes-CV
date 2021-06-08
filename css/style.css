@@ -24,7 +24,7 @@ body{
 }
 .container .side_left{
     position: relative;
-    background: rgb(3, 3, 44);
+    background: #27B3EE;
     padding: 40px;
 
 
@@ -36,7 +36,6 @@ body{
     align-items: center;
     padding-bottom: 20%;
     border-bottom: 1px solid rgba(255, 255, 255 ,0,2);
-    color: white;
     text-align: center;
 }
 .infoContato{
@@ -70,7 +69,7 @@ body{
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color:greenyellow;
+    color:#000000;
 }
 .contato ul li span{
     color: rgb(109, 107, 107);
@@ -105,10 +104,29 @@ body{
     
 
 }
+.contato li{
+    margin-bottom: 15px;
+    
+}
+.contato h5{
+    color: #000000;
+    font-size: 14px;
+
+    
+}
+.contato h4{
+    color: #383535;
+    font-size: 14px;        
+}
+.contato .idiomas{
+    color: #fff;
+    font-size: 14px;        
+}
 
 .container .side_right{
     position: relative;
-    background:white;
+    background:#C0D4D6;
     padding: 90px;
 
 }
+
