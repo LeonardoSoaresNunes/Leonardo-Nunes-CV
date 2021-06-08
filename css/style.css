@@ -122,11 +122,47 @@ body{
     color: #fff;
     font-size: 14px;        
 }
+.contato .linguas{
+    color: #383535;
+    font-size: 14px;  
+          
+}
+.contato .percent{
+    position: relative;
+    width: 100%;
+    height: 4px;    
+    background-color: #000;
+    display: block;
+    margin-top: 4px;
 
+}
+.contato .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #FFFFFF;
+    
+}
 .container .side_right{
     position: relative;
     background:#C0D4D6;
     padding: 90px;
-
 }
+.titulo1{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.titulo1 :last-child{
+    margin-bottom: 0px;
+}
+.titulo1{
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+ p {
+    color: #383535;
+}
+
 
