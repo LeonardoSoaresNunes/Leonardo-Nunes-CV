@@ -189,6 +189,9 @@ h5{
     color: rgb(95 , 94 ,94);
    
 }
+.titulo2{
+    margin-top: 30px;
+}
 .sobre .box{
     display: flex;
     flex-direction: row;
@@ -220,8 +223,12 @@ h5{
 }
 .programacion .box h4{
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: hsl(0, 2%, 32%);
+    margin-bottom: 12px;
    
+}
+.programacion .titulo2{
+    margin-bottom: 8px;
 }
 .programacion .box  .percent{
     position:relative;
@@ -236,7 +243,44 @@ h5{
     height: 100%;
     background: #fff;
 }
+.titulo3{
+    margin-top: 30px;
+}
+.interesses ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.interesses ul li{
+    list-style: none;
+    color: #fff;
+    margin: 12px;
+    
+    
+}
+.interesses ul li .fa{
+    
+    color: #27B3EE;
+    font-size: 18px; 
+    display: flex; 
+    margin: 5px;  
+}
+.info{
+    color:#27B3EE;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 40px;
+}
 
 
-
-
+@media(max-width:1000px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .interesses ul{
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+    }
+}
