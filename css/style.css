@@ -187,8 +187,18 @@ h5{
 .descricao .trampo1 h5{
     text-transform: uppercase;
     color: rgb(95 , 94 ,94);
-    font-weight: 600;
+   
 }
+.sobre .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.sobre .box .empresas{
+    min-width: 150px;
+  
+}
+
 
 
 
