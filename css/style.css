@@ -157,12 +157,38 @@ body{
     margin-bottom: 0px;
 }
 .titulo1{
-    color: #000;
+    color: rgb(95, 94, 94);
     text-transform: uppercase;
     margin-bottom: 12px;
 }
  p {
     color: #383535;
+    text-align: justify;
 }
+.descricao .titulo2{
+   color: rgb(95, 94, 94);
+    
+margin-top: 30px;
+display: flex;
+flex-direction: row;
+margin: 20px 0;
+}
+
+    
+
+h5{
+    margin: 5px;
+    font-size: 16px;
+}
+.descricao .trampo1 {
+    min-width: 200px;
+
+}
+.descricao .trampo1 h5{
+    text-transform: uppercase;
+    color: rgb(95 , 94 ,94);
+    font-weight: 600;
+}
+
 
 
