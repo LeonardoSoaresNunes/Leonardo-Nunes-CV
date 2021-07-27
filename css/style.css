@@ -71,7 +71,7 @@ body{
     font-size: 18px;
     color:#000000;
 }
-.contato ul li span{
+.contato ul li span a{
     color: rgb(109, 107, 107);
     font-family:Arial, Helvetica, sans-serif;
 }
